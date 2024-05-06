@@ -1,0 +1,11 @@
+EPM python environment
+------
+conda create -c conda-forge -n EPM 
+conda activate EPM
+
+conda install -c conda-forge notebook cartopy
+conda install -c conda-forge numpy matplotlib scipy pandas cython h5py
+conda install -c conda-forge cdflib
+pip install hdf5storage
+pip install chaosmagpy
+
